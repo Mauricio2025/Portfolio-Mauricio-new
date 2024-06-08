@@ -59,23 +59,21 @@ function Projects() {
             <ProjectCard
               imgPath={CajuuBeta}
               isBlog={false}
-              title="Plant AI"
-              description=
-              "Used the plant disease dataset from Kaggle and trained a image classifer
-               model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="CRM System for Automotive Transport Drivers and Brokers"
+              description="An innovative CRM system specifically designed for drivers and brokers in the automotive transport sector. The project has been enhanced with the adoption of modern technologies such as React, Tailwind CSS, and Laravel, providing an improved user experience and advanced functionalities for relationship management and operational efficiency."
+              demoLink="https://view.cajuu.app/"
             />
           </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Apeperia}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Apeperia - Responsiveness Company"
+              description="Welcome to the official repository of Apeperia, a company dedicated to creating responsive web solutions. This project uses HTML, CSS, and JavaScript to provide an optimized experience across various devices."
+              ghLink="https://github.com/Mauricio2025/projeto-apeperia"
+              demoLink="https://mauricio2025.github.io/projeto-apeperia/" 
             />
           </Col>
 
@@ -83,11 +81,10 @@ function Projects() {
             <ProjectCard
               imgPath={Monibank}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="MiniBank - A Simple Virtual Bank"
+              description="MiniBank is a virtual bank project developed using HTML, CSS, and JavaScript. This repository includes the source code for a basic virtual banking system, enabling users to perform operations like deposits, withdrawals, and balance checks."
+              ghLink="https://github.com/Mauricio2025/monibank"
+              demoLink="https://mauricio2025.github.io/monibank/"
             />
           </Col>
         </Row>
